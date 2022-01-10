@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background: transparent;
+    font-family: inherit;
+  }
+  ol,
+  ul,
+  li {
+      list-style: none;
+      display: block;
+    }
+    
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+    
+    a img {
+        border: none;
+    }
+    
+    button,
+    a {
+        cursor: pointer;
+        color: inherit;
+    }
+    
+    textarea {
+        resize: none;
+    }
+    
+    button,
+    textarea,
+    select {
+        -moz-appearance: none !important;
+        appearance: none !important;
+        -webkit-appearance: none !important;
+        border-radius: 0;
+    }
+    /*EXAM*/
+    body, textarea{
+        font-weight: normal;
+        font-family: 'EB Garamond', serif;
+        background-color: #F7E4D4;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-height: 100vh;
+    }
+
+    #form{
+        border: 1px solid red;
+        width: 100%;
+        max-width: 520px;
+        padding: 20px;
+        margin: 0 auto;
+    }
+    
+    h1{
+        font-size: 48px;
+        text-align: center;
+        font-weight: normal;
+        margin-bottom: 20px;
+        color: #467745;
+    }
+    @media (max-width: 520px){
+        h1{
+        text-align: left;
+        font-size: 36px;
+    }
+        input,
+        textarea{
+        width: calc(100%-40px);
+        }
+
+    }
+    input[type="text"] {
+        display: block;
+        width: 100%;
+        height: 64px;
+        padding-left: 20px;
+        margin-bottom: 20px;
+        background-color: white;
+    }
+    input,
+    textarea{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        font-weight: medium;
+        width: 100%;
+        max-width: 480px;
+        color: #467745;
+    }
+
+    textarea{
+        font-family: 'Montserrat', sans-serif;
+        height: 120px;
+        margin-bottom: 20px;
+        padding-left: 20px;
+        padding-top: 20px;
+        background-color: white;
+    }
+    .checkbox{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: medium;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 25px;
+        color: #467745;
+    }
+    .checkbox a{
+        text-decoration: underline;
+    }
+    input[type="checkbox"]{
+        width: 20px;
+        height: 20px;
+    }
+    button{
+        display: block;
+        margin: 0 auto;
+        font-family: 'EB Garamond', serif;
+        font-weight: normal;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        border-radius: 40px;
+        font-size: 21px;
+        width: 280px;
+        height: 80px;
+        background-color: #467745;
+        color: #F7E4D4;
+    }
